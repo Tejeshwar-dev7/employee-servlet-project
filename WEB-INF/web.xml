@@ -1,0 +1,26 @@
+<web-app>
+
+    <!-- Display Servlet -->
+    <servlet>
+        <servlet-name>display</servlet-name>
+        <servlet-class>DisplayServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>display</servlet-name>
+        <url-pattern>/display</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Check Change Servlet -->
+    <servlet>
+        <servlet-name>checkchange</servlet-name>
+        <servlet-class>CheckChangeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>checkchange</servlet-name>
+        <url-pattern>/CheckChangeServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
